@@ -215,11 +215,15 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-[85vh] flex flex-col justify-end p-6 md:p-12 border-b border-line overflow-hidden group">
-      {/* Full-bleed hero media — the katana, treated exactly like the original template's kinetic background */}
+      {/* Full-bleed hero media — kinetic katana loop, exactly like the original template's video background */}
       <div className="absolute inset-0 z-[-1] opacity-35">
-        <img
-          src="https://images.unsplash.com/photo-1689493720621-fbf73d28bb52?q=80&w=1600&auto=format&fit=crop"
-          alt="Katana and saya"
+        <video
+          src="/hero-katana.mp4"
+          poster="/hero-katana-poster.jpg"
+          autoPlay
+          loop
+          muted
+          playsInline
           className="w-full h-full object-cover grayscale mix-blend-screen"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-base via-base/70 to-transparent"></div>
