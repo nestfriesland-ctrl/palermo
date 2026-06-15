@@ -214,61 +214,25 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-[88vh] flex flex-col justify-end p-6 md:p-12 border-b border-line overflow-hidden group">
-      {/* Hero background image — karate stance, faded for atmosphere */}
-      <div className="absolute inset-0 z-[-1] opacity-30">
+    <section className="relative min-h-[85vh] flex flex-col justify-end p-6 md:p-12 border-b border-line overflow-hidden group">
+      {/* Full-bleed hero media — the katana, treated exactly like the original template's kinetic background */}
+      <div className="absolute inset-0 z-[-1] opacity-35">
         <img
-          src="https://images.unsplash.com/photo-1656653121931-fb0c1a239c09?q=80&w=1600&auto=format&fit=crop"
-          alt="Karate practitioner in stance"
+          src="https://images.unsplash.com/photo-1689493720621-fbf73d28bb52?q=80&w=1600&auto=format&fit=crop"
+          alt="Katana and saya"
           className="w-full h-full object-cover grayscale mix-blend-screen"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-base via-base/70 to-transparent"></div>
       </div>
 
-      {/* Immersive vignette — pulls focus to the centre and deepens the edges */}
-      <div
-        className="absolute inset-0 z-[-1] pointer-events-none"
-        style={{ background: 'radial-gradient(ellipse at 50% 38%, transparent 30%, rgba(3,3,3,0.55) 75%, #030303 100%)' }}
-        aria-hidden="true"
-      ></div>
-
-      {/* Giant faded kanji 道 (dō — "the way") — atmospheric watermark */}
-      <div
-        className="absolute -right-[6%] top-1/2 -translate-y-1/2 z-0 select-none pointer-events-none font-light leading-none text-white/[0.035] animate-float"
-        style={{ fontSize: 'min(72vh, 60vw)' }}
-        aria-hidden="true"
-      >
-        道
-      </div>
-
-      {/* Rotating katana — the slow hero spin, now a Japanese sword */}
-      <div
-        className="absolute inset-x-0 top-[12%] z-0 flex justify-center pointer-events-none"
-        aria-hidden="true"
-      >
-        <div className="relative">
-          {/* Crimson radial glow behind the disc */}
-          <div className="absolute -inset-12 bg-radial-glow blur-2xl"></div>
-          <div className="relative w-[clamp(210px,34vw,440px)] aspect-square rounded-full overflow-hidden border border-line/70 shadow-2xl animate-spin-slow will-change-transform">
-            <img
-              src="https://images.unsplash.com/photo-1689493720621-fbf73d28bb52?q=80&w=900&auto=format&fit=crop"
-              alt="Katana"
-              className="w-full h-full object-cover grayscale opacity-90"
-            />
-          </div>
-          {/* Thin rotating ring accent around the blade */}
-          <div className="absolute -inset-3 rounded-full border border-accent/20"></div>
-        </div>
-      </div>
-
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-end relative z-10">
         <div className="md:col-span-5 flex flex-col gap-10 pb-2">
           <div
-            className={`space-y-4 max-w-[360px] transition-all duration-1000 delay-500 ease-expo-out ${
+            className={`space-y-4 max-w-[340px] transition-all duration-1000 delay-500 ease-expo-out ${
               mounted ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
             }`}
           >
-            <div className="text-xs uppercase tracking-widest font-light text-accent border-l border-accent pl-4">001 — 武道 · Karateka &amp; Swordswoman</div>
+            <div className="text-xs uppercase tracking-widest font-light text-accent border-l border-accent pl-4">001 — Karateka · Swordswoman</div>
             <p className="text-xs tracking-widest uppercase font-light leading-relaxed text-primary/80">
               Traditional karate and the art of the Japanese sword. Kihon, kata and kumite meet iaido and kenjutsu — a practice built on precision, discipline and stillness.
             </p>
