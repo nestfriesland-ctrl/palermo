@@ -225,7 +225,23 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-base via-base/70 to-transparent"></div>
       </div>
 
-
+      {/* Rotating focal product image — restored from original Aura template's hero spin */}
+      <div
+        className="absolute inset-x-0 top-[14%] z-0 flex justify-center pointer-events-none"
+        aria-hidden="true"
+      >
+        <div className="relative">
+          {/* Crimson radial glow behind the disc */}
+          <div className="absolute -inset-12 bg-radial-glow blur-2xl"></div>
+          <div className="relative w-[clamp(200px,34vw,420px)] aspect-square rounded-full overflow-hidden border border-line/70 shadow-2xl animate-spin-slow will-change-transform">
+            <img
+              src="https://images.unsplash.com/photo-1583473848882-f9a5bc7fd2ee?q=80&w=900&auto=format&fit=crop"
+              alt="Boxing glove"
+              className="w-full h-full object-cover grayscale opacity-90"
+            />
+          </div>
+        </div>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-end relative z-10">
         <div className="md:col-span-5 flex flex-col gap-10 pb-2">
