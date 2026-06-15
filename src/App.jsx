@@ -87,72 +87,72 @@ const PROGRAMS = [
   {
     id: "TR-P01",
     title: "1:1 Private Coaching",
-    category: "Striking",
+    category: "Karate",
     price: 75,
     rating: 5.0,
     stock: 3,
     colors: ["#E11D48", "#1E1E1E", "#E2E2E2"],
-    desc: "Fully personalised coaching built around your body, your goals and your pace. Technical striking, pad work and conditioning in a focused one-on-one setting.",
-    image: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=800&auto=format&fit=crop",
-    specs: { length: "60 min", level: "All levels", focus: "Technique & Power", format: "Private 1:1" }
+    desc: "Fully personalised coaching built around your body, your goals and your pace — karate, the sword, or both. Technical work, kata and conditioning in a focused one-on-one setting.",
+    image: "https://images.unsplash.com/photo-1656653121931-fb0c1a239c09?q=80&w=800&auto=format&fit=crop",
+    specs: { length: "60 min", level: "All levels", focus: "Technique & Precision", format: "Private 1:1" }
   },
   {
-    id: "TR-M02",
-    title: "Muay Thai Fundamentals",
-    category: "Striking",
+    id: "KA-02",
+    title: "Karate Fundamentals",
+    category: "Karate",
     price: 28,
     rating: 4.9,
     stock: 6,
     colors: ["#E11D48", "#111111"],
-    desc: "The art of eight limbs, broken down. Clean footwork, sharp elbows and knees, and the rhythm of the clinch — taught with patience and intent.",
-    image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop",
-    specs: { length: "75 min", level: "Beginner — Intermediate", focus: "Striking & Clinch", format: "Small group" }
+    desc: "Kihon, kata and kumite, broken down. Clean stances, sharp technique and the discipline of the form — taught with patience and intent.",
+    image: "https://images.unsplash.com/photo-1525198104776-f6e8a873f9b7?q=80&w=800&auto=format&fit=crop",
+    specs: { length: "75 min", level: "Beginner — Intermediate", focus: "Kihon & Kata", format: "Small group" }
   },
   {
-    id: "TR-K03",
-    title: "Kickboxing Conditioning",
-    category: "Strength",
-    price: 24,
-    rating: 4.8,
-    stock: 12,
+    id: "IAI-03",
+    title: "Iaido — The Drawn Sword",
+    category: "Sword",
+    price: 34,
+    rating: 5.0,
+    stock: 4,
     colors: ["#E11D48", "#3A3A3C"],
-    desc: "High-output rounds of bag work, combinations and bodyweight conditioning. Build engine, sharpen hands and leave everything on the mat.",
-    image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e?q=80&w=800&auto=format&fit=crop",
-    specs: { length: "50 min", level: "All levels", focus: "Cardio & Power", format: "Group class" }
+    desc: "The art of drawing, cutting and resheathing the katana in a single calm motion. Precision, posture and the meditative discipline of the blade.",
+    image: "https://images.unsplash.com/photo-1569995617877-d845becc0d40?q=80&w=800&auto=format&fit=crop",
+    specs: { length: "75 min", level: "All levels", focus: "The Draw & The Cut", format: "Small group" }
   },
   {
-    id: "TR-S04",
-    title: "Strength & Power",
-    category: "Strength",
-    price: 30,
+    id: "KEN-04",
+    title: "Kenjutsu — Partnered Blade",
+    category: "Sword",
+    price: 36,
     rating: 4.9,
     stock: 5,
     colors: ["#E11D48", "#1E1E1E"],
-    desc: "Fighter-built strength work — compound lifts, explosive movement and core control that translates directly into harder strikes and a more resilient body.",
-    image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=800&auto=format&fit=crop",
-    specs: { length: "60 min", level: "Intermediate", focus: "Strength & Explosiveness", format: "Small group" }
+    desc: "Two-person sword work with bokken and katana. Distance, timing and control under pressure — the living application of the sword arts.",
+    image: "https://images.unsplash.com/photo-1754474541446-965c3e5d8f22?q=80&w=800&auto=format&fit=crop",
+    specs: { length: "75 min", level: "Intermediate", focus: "Distance & Timing", format: "Paired drills" }
   },
   {
-    id: "TR-Y05",
-    title: "Mobility & Recovery",
-    category: "Mobility",
-    price: 20,
-    rating: 4.7,
+    id: "TR-S05",
+    title: "Strength & Conditioning",
+    category: "Conditioning",
+    price: 30,
+    rating: 4.8,
     stock: 8,
-    colors: ["#16A34A", "#E2E2E2"],
-    desc: "Slow, deliberate mobility flows, breathwork and active recovery. The unglamorous work that keeps you training hard, week after week, injury-free.",
-    image: "https://images.unsplash.com/photo-1583473848882-f9a5bc7fd2ee?q=80&w=800&auto=format&fit=crop",
-    specs: { length: "45 min", level: "All levels", focus: "Mobility & Breath", format: "Group class" }
+    colors: ["#E11D48", "#1E1E1E"],
+    desc: "Martial-arts-built strength — compound movement, explosive power and core control that translate directly into sharper technique and a more resilient body.",
+    image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=800&auto=format&fit=crop",
+    specs: { length: "60 min", level: "Intermediate", focus: "Strength & Power", format: "Small group" }
   },
   {
-    id: "TR-B06",
-    title: "Mindset & Breathwork",
+    id: "ZEN-06",
+    title: "Breath & Stillness",
     category: "Mindset",
     price: 18,
     rating: 4.9,
     stock: 0, // Fully booked demo
     colors: ["#737373", "#1E1E1E"],
-    desc: "Composure under pressure is a skill. Breath control, focus drills and the mental side of combat — train your nervous system the way you train your body.",
+    desc: "Zanshin — composure under pressure is a skill. Breath control, focus drills and the meditative side of budō; train your nervous system the way you train your body.",
     image: "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=800&auto=format&fit=crop",
     specs: { length: "40 min", level: "All levels", focus: "Focus & Calm", format: "Group class" }
   }
@@ -179,7 +179,7 @@ const Navbar = ({ cartCount, onCartToggle }) => {
       <div className="flex items-center gap-4">
         <div className="w-2.5 h-2.5 bg-accent rounded-sm animate-pulse"></div>
         <div className="text-xs uppercase tracking-widest font-light text-primary">
-          Tara Dijkstra <span className="text-muted ml-2">Combat &amp; Conditioning</span>
+          Tara Dijkstra <span className="text-muted ml-2">Karate &amp; Swordsmanship</span>
         </div>
       </div>
 
@@ -214,45 +214,63 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-[85vh] flex flex-col justify-end p-6 md:p-12 border-b border-line overflow-hidden group">
-      {/* Hero background image (blueprint placeholder) */}
-      <div className="absolute inset-0 z-[-1] opacity-35">
+    <section className="relative min-h-[88vh] flex flex-col justify-end p-6 md:p-12 border-b border-line overflow-hidden group">
+      {/* Hero background image — karate stance, faded for atmosphere */}
+      <div className="absolute inset-0 z-[-1] opacity-30">
         <img
-          src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1600&auto=format&fit=crop"
-          alt="Female martial artist training"
+          src="https://images.unsplash.com/photo-1656653121931-fb0c1a239c09?q=80&w=1600&auto=format&fit=crop"
+          alt="Karate practitioner in stance"
           className="w-full h-full object-cover grayscale mix-blend-screen"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-base via-base/70 to-transparent"></div>
       </div>
 
-      {/* Rotating focal product image — restored from original Aura template's hero spin */}
+      {/* Immersive vignette — pulls focus to the centre and deepens the edges */}
       <div
-        className="absolute inset-x-0 top-[14%] z-0 flex justify-center pointer-events-none"
+        className="absolute inset-0 z-[-1] pointer-events-none"
+        style={{ background: 'radial-gradient(ellipse at 50% 38%, transparent 30%, rgba(3,3,3,0.55) 75%, #030303 100%)' }}
+        aria-hidden="true"
+      ></div>
+
+      {/* Giant faded kanji 道 (dō — "the way") — atmospheric watermark */}
+      <div
+        className="absolute -right-[6%] top-1/2 -translate-y-1/2 z-0 select-none pointer-events-none font-light leading-none text-white/[0.035] animate-float"
+        style={{ fontSize: 'min(72vh, 60vw)' }}
+        aria-hidden="true"
+      >
+        道
+      </div>
+
+      {/* Rotating katana — the slow hero spin, now a Japanese sword */}
+      <div
+        className="absolute inset-x-0 top-[12%] z-0 flex justify-center pointer-events-none"
         aria-hidden="true"
       >
         <div className="relative">
           {/* Crimson radial glow behind the disc */}
           <div className="absolute -inset-12 bg-radial-glow blur-2xl"></div>
-          <div className="relative w-[clamp(200px,34vw,420px)] aspect-square rounded-full overflow-hidden border border-line/70 shadow-2xl animate-spin-slow will-change-transform">
+          <div className="relative w-[clamp(210px,34vw,440px)] aspect-square rounded-full overflow-hidden border border-line/70 shadow-2xl animate-spin-slow will-change-transform">
             <img
-              src="https://images.unsplash.com/photo-1583473848882-f9a5bc7fd2ee?q=80&w=900&auto=format&fit=crop"
-              alt="Boxing glove"
+              src="https://images.unsplash.com/photo-1689493720621-fbf73d28bb52?q=80&w=900&auto=format&fit=crop"
+              alt="Katana"
               className="w-full h-full object-cover grayscale opacity-90"
             />
           </div>
+          {/* Thin rotating ring accent around the blade */}
+          <div className="absolute -inset-3 rounded-full border border-accent/20"></div>
         </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-end relative z-10">
         <div className="md:col-span-5 flex flex-col gap-10 pb-2">
           <div
-            className={`space-y-4 max-w-[340px] transition-all duration-1000 delay-500 ease-expo-out ${
+            className={`space-y-4 max-w-[360px] transition-all duration-1000 delay-500 ease-expo-out ${
               mounted ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
             }`}
           >
-            <div className="text-xs uppercase tracking-widest font-light text-accent border-l border-accent pl-4">001 — Fighter · Coach</div>
+            <div className="text-xs uppercase tracking-widest font-light text-accent border-l border-accent pl-4">001 — 武道 · Karateka &amp; Swordswoman</div>
             <p className="text-xs tracking-widest uppercase font-light leading-relaxed text-primary/80">
-              Kickboxing, Muay Thai and strength work for people who want to feel powerful. A practice where combat sport, conditioning and recovery meet.
+              Traditional karate and the art of the Japanese sword. Kihon, kata and kumite meet iaido and kenjutsu — a practice built on precision, discipline and stillness.
             </p>
           </div>
 
@@ -267,7 +285,7 @@ const Hero = () => {
             >
               <div className="relative bg-surface px-8 py-4 flex items-center gap-4 transition-colors group-hover:bg-black">
                 <span className="w-1.5 h-1.5 bg-accent group-hover:bg-white transition-colors rounded-full animate-ping"></span>
-                <span className="text-xs font-light uppercase tracking-widest text-primary">Explore Training Programs</span>
+                <span className="text-xs font-light uppercase tracking-widest text-primary">Enter The Dōjō</span>
               </div>
             </a>
           </div>
@@ -277,12 +295,12 @@ const Hero = () => {
           <h1 className="text-5xl md:text-[7.5vw] leading-[0.85] tracking-tighter font-light uppercase w-full md:text-right">
             <span className="block overflow-hidden align-top">
               <span className={`inline-block transition-all duration-[1.2s] ease-expo-out delay-200 ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}>
-                Movement
+                Steel
               </span>
             </span>
             <span className="block overflow-hidden align-top">
               <span className={`inline-block text-muted transition-all duration-[1.2s] ease-expo-out delay-300 ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}>
-                As Medicine
+                &amp; Spirit
               </span>
             </span>
           </h1>
@@ -294,12 +312,12 @@ const Hero = () => {
 
 const TrainingGallery = () => {
   const disciplines = [
-    { name: "Muay Thai", image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop" },
-    { name: "Kickboxing", image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800&auto=format&fit=crop" },
-    { name: "Pad Work", image: "https://images.unsplash.com/photo-1591117207239-788bf8de6c3b?q=80&w=800&auto=format&fit=crop" },
-    { name: "Conditioning", image: "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?q=80&w=800&auto=format&fit=crop" },
-    { name: "Mobility", image: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?q=80&w=800&auto=format&fit=crop" },
-    { name: "Sparring", image: "https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?q=80&w=800&auto=format&fit=crop" }
+    { name: "Karate", image: "https://images.unsplash.com/photo-1656653121931-fb0c1a239c09?q=80&w=800&auto=format&fit=crop" },
+    { name: "Iaido", image: "https://images.unsplash.com/photo-1569995617877-d845becc0d40?q=80&w=800&auto=format&fit=crop" },
+    { name: "Kenjutsu", image: "https://images.unsplash.com/photo-1754474541446-965c3e5d8f22?q=80&w=800&auto=format&fit=crop" },
+    { name: "The Sword", image: "https://images.unsplash.com/photo-1754474517176-336e31a15e04?q=80&w=800&auto=format&fit=crop" },
+    { name: "Discipline", image: "https://images.unsplash.com/photo-1525198104776-f6e8a873f9b7?q=80&w=800&auto=format&fit=crop" },
+    { name: "Conditioning", image: "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?q=80&w=800&auto=format&fit=crop" }
   ];
 
   return (
@@ -310,7 +328,7 @@ const TrainingGallery = () => {
       <div className="px-6 md:px-12 flex justify-between items-center opacity-70">
         <div className="text-xs uppercase tracking-widest font-light text-muted flex items-center gap-2">
           <iconify-icon icon="solar:plain-linear" className="text-accent"></iconify-icon>
-          002 — Inside The Training
+          002 — Inside The Dōjō
         </div>
         <div className="text-xs uppercase tracking-widest font-light text-muted hidden md:block">In Session</div>
       </div>
@@ -351,7 +369,7 @@ const Vision = () => {
             <div className="w-full h-full bg-surface relative overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=1000&auto=format&fit=crop"
-                alt="Tara training"
+                alt="Tara Dijkstra training"
                 className="w-full h-full object-cover grayscale opacity-60 group-hover:scale-105 group-hover:opacity-100 transition-all duration-1000 ease-out"
               />
             </div>
@@ -360,11 +378,11 @@ const Vision = () => {
 
         <div className="md:col-span-8 flex flex-col justify-center pt-8 md:pt-0 md:pl-12">
           <h2 className="text-3xl md:text-5xl font-light uppercase tracking-tighter leading-tight mb-8">
-            Build Power. <span className="text-muted">Move</span><br/>With Intention.
+            Empty Hand. <span className="text-muted">Drawn</span><br/>Blade.
           </h2>
           <RevealText
             className="text-base md:text-lg font-light leading-relaxed text-muted max-w-2xl"
-            text="I coach martial arts the way I wish I'd been taught — patiently, technically, and without ego. Every session blends clean striking with strength, mobility and breath, so you leave stronger than you arrived. This is training for the long game: a body that performs and a mind that stays calm under pressure."
+            text="I teach karate and the Japanese sword the way the old schools intended — with patience, precision and respect for the craft. Every session moves from kihon and kata to kumite, from the first silent draw of the blade to controlled partner work. This is budō: training that sharpens the body, steadies the breath and builds a mind that stays calm under pressure."
           />
         </div>
       </div>
@@ -378,18 +396,18 @@ const Protocols = () => {
   const systems = [
     {
       id: "SYS.01",
-      title: "Technical Striking",
-      desc: "Footwork, distance and clean technique come first. We drill the fundamentals of kickboxing and Muay Thai until they become instinct — not just harder, but smarter."
+      title: "Karate — Kihon & Kata",
+      desc: "Stance, footwork and clean technique come first. We drill the fundamentals of karate — kihon, kata and kumite — until form becomes instinct: not just harder, but sharper and more precise."
     },
     {
       id: "SYS.02",
-      title: "Strength & Conditioning",
-      desc: "Fighter-built strength work that translates directly to power and resilience. Compound movement, explosive drills and the engine to back it up."
+      title: "The Sword — Iaido & Kenjutsu",
+      desc: "The art of the Japanese blade. From the silent draw of iaido to controlled partner work in kenjutsu, you learn distance, timing and absolute command of the katana."
     },
     {
       id: "SYS.03",
-      title: "Recovery & Mindset",
-      desc: "Mobility, breathwork and composure under pressure. The quiet work that keeps you training week after week and lets you perform when it counts."
+      title: "Breath & Stillness",
+      desc: "Zanshin — the calm, alert mind. Breathwork, mobility and the meditative side of budō that keeps you composed under pressure and training for the long game."
     }
   ];
 
@@ -437,7 +455,7 @@ const ProgramCollection = ({ onAddToCart, onQuickView }) => {
   const [selectedSlots, setSelectedSlots] = useState({});
   const [selectedColors, setSelectedColors] = useState({});
 
-  const categories = ["All", "Striking", "Strength", "Mobility", "Mindset"];
+  const categories = ["All", "Karate", "Sword", "Conditioning", "Mindset"];
 
   const handleSlotSelect = (programId, slot) => {
     setSelectedSlots(prev => ({ ...prev, [programId]: slot }));
@@ -775,7 +793,7 @@ const DetailsModal = ({ program, onClose }) => {
               <span className="text-muted uppercase tracking-widest">Good To Know:</span>
               <div className="flex gap-2 mt-2">
                 <span className="px-2 py-1 bg-accent/10 border border-accent/20 text-accent rounded-xs text-[10px]">All Levels Welcome</span>
-                <span className="px-2 py-1 bg-white/5 border border-line text-muted rounded-xs text-[10px]">Gear Provided</span>
+                <span className="px-2 py-1 bg-white/5 border border-line text-muted rounded-xs text-[10px]">Gi &amp; Bokken Provided</span>
               </div>
             </div>
           </div>
@@ -1032,11 +1050,11 @@ const Footer = () => (
         <div className="flex items-center gap-4">
           <div className="w-2.5 h-2.5 bg-accent rounded-sm"></div>
           <div className="text-sm uppercase tracking-widest font-light text-primary">
-            Tara Dijkstra <span className="text-muted ml-2">Combat &amp; Conditioning</span>
+            Tara Dijkstra <span className="text-muted ml-2">Karate &amp; Swordsmanship</span>
           </div>
         </div>
         <p className="text-xs tracking-widest uppercase font-light leading-relaxed text-muted max-w-sm">
-          Martial arts coaching for people who want to feel strong, capable and calm. Striking, strength and recovery — taught with patience.
+          Traditional karate and Japanese swordsmanship for people who want to move with precision and stay calm under pressure. Kihon, kata, the blade and breath — taught with patience.
         </p>
       </div>
 
